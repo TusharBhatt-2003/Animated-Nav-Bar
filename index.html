@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="amazing-tabs">
+
+        <div class="filters-container">
+            <div class="filters-wrapper">
+                <ul class="filter-tabs">
+                    <li>
+                        <button class="filter-button filter-active" data-translate-value="0">
+                            New
+                        </button>
+                    </li>
+                    <li>
+                        <button class="filter-button" data-translate-value="100%">
+                            Popular
+                        </button>
+                    </li>
+                    <li>
+                        <button class="filter-button" data-translate-value="200%">
+                            Following
+                        </button>
+                    </li>
+                   
+                </ul>
+                <div class="filter-slider" aria-hidden="true">
+                    <div class="filter-slider-rect">&nbsp;</div>
+                </div>
+            </div>
+        </div> 
+        
+       
+        <div class="main-tabs-container">
+            <div class="main-tabs-wrapper">
+                <ul class="main-tabs">
+                    <li>
+                        <button class="round-button profile active" data-translate-value="0" data-color="blue">
+                            <span class="avatar">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG21V9niNXnl4oc_iVwCCgbBbo2W4GEK5Spg&s" alt="user avatar" />
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="round-button gallery active" style="--round-button-active-color:#2d00f5" data-translate-value="100%" data-color="purple">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="64" y="48" width="160" height="128" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="172" cy="84" r="12"/><path d="M64,128.69l38.34-38.35a8,8,0,0,1,11.32,0L163.31,140,189,114.34a8,8,0,0,1,11.31,0L224,138.06" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M192,176v24a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8H64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button id="add" class="round-button add active" style="--round-button-active-color: #00c853" data-translate-value="200%" data-color="green">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polyline points="32 128 128 184 224 128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polygon points="32 80 128 136 224 80 128 24 32 80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="184" y1="200" x2="232" y2="200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="208" y1="176" x2="208" y2="224" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="32 176 128 232 144 222.67" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="round-button" style="--round-button-active-color: #8e0000" data-translate-value="300%" data-color="red">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M96,192a32,32,0,0,0,64,0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M56,104a72,72,0,0,1,144,0c0,35.82,8.3,64.6,14.9,76A8,8,0,0,1,208,192H48a8,8,0,0,1-6.88-12C47.71,168.6,56,139.81,56,104Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="round-button" style="--round-button-active-color: #ff6d00" data-translate-value="400%" data-color="orange">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M188,184H91.17a16,16,0,0,1-15.74-13.14L48.73,24H24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="92" cy="204" r="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="188" cy="204" r="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M70.55,144H196.1a16,16,0,0,0,15.74-13.14L224,64H56" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                        </button>
+                    </li>
+                </ul>
+                <div class="main-slider" aria-hidden="true">
+                    <div class="main-slider-circle">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+
+<script type="text/javascript" src="js.js"> </script>
+
+</html>
